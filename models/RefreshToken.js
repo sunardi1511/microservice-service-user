@@ -26,8 +26,8 @@ module.exports = (sequelize, DataTypes) => {
             allowNull:false
         }
     },{
-        tableName: 'RefreshToken',
+        tableName: 'refresh_tokens',
         timestamps: true
     })
-    return RefreshToken
+    return RefreshToken 
 }

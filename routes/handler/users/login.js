@@ -36,7 +36,7 @@ module.exports = async (req, res) => {
         })
     }
 
-    res.json([{
+    res.json({
         status: 'sucsses',
         data: {
             id: user.id,
@@ -46,5 +46,5 @@ module.exports = async (req, res) => {
             avatar: user.avatar,
             profession: user.profession
         }
-    }])
+    })
 }

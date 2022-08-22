@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
         })
     }
 
-    const password = await bcrypt.hash(req.body.password, 10)
+    const password = await bcrypt.hash(req.body.password, 10) 
 
     const data = {
         password,
